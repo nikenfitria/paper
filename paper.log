@@ -1,0 +1,884 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.29)  13 OCT 2015 14:36
+entering extended mode
+**paper.tex
+(D:\Documents\Profesional\Paper\paper.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+(D:\Documents\Profesional\Paper\llncs.cls
+Document Class: llncs 2014/03/31 v2.19 
+ LaTeX document class for Lecture Notes in Computer Science
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo"
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\multicol.sty"
+Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
+\c@tracingmulticols=\count87
+\mult@box=\box26
+\multicol@leftmargin=\dimen103
+\c@unbalance=\count88
+\c@collectmore=\count89
+\doublecol@number=\count90
+\multicoltolerance=\count91
+\multicolpretolerance=\count92
+\full@width=\dimen104
+\page@free=\dimen105
+\premulticols=\dimen106
+\postmulticols=\dimen107
+\multicolsep=\skip43
+\multicolbaselineskip=\skip44
+\partial@page=\box27
+\last@line=\box28
+\mult@rightbox=\box29
+\mult@grightbox=\box30
+\mult@gfirstbox=\box31
+\mult@firstbox=\box32
+\@tempa=\box33
+\@tempa=\box34
+\@tempa=\box35
+\@tempa=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\c@columnbadness=\count93
+\c@finalcolumnbadness=\count94
+\last@try=\dimen108
+\multicolovershoot=\dimen109
+\multicolundershoot=\dimen110
+\mult@nat@firstbox=\box50
+\colbreak@box=\box51
+\multicol@sort@counter=\count95
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\aliascnt.sty"
+Package: aliascnt 2009/09/08 v1.3 Alias counters (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\carlisle\remreset.sty"))
+\c@chapter=\count96
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 362.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 363.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 364.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 365.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 366.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 367.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 368.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 369.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 370.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 371.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 372.
+\tocchpnum=\dimen111
+\tocsecnum=\dimen112
+\tocsectotal=\dimen113
+\tocsubsecnum=\dimen114
+\tocsubsectotal=\dimen115
+\tocsubsubsecnum=\dimen116
+\tocsubsubsectotal=\dimen117
+\tocparanum=\dimen118
+\tocparatotal=\dimen119
+\tocsubparanum=\dimen120
+\@tempcntc=\count97
+\fnindent=\dimen121
+\c@@inst=\count98
+\c@@auth=\count99
+\c@auco=\count100
+\instindent=\dimen122
+\authrun=\box52
+\authorrunning=\toks14
+\tocauthor=\toks15
+\titrun=\box53
+\titlerunning=\toks16
+\toctitle=\toks17
+\c@theorem=\count101
+\c@case=\count102
+\c@conjecture=\count103
+\c@corollary=\count104
+\c@definition=\count105
+\c@example=\count106
+\c@exercise=\count107
+\c@lemma=\count108
+\c@note=\count109
+\c@problem=\count110
+\c@property=\count111
+\c@proposition=\count112
+\c@question=\count113
+\c@solution=\count114
+\c@remark=\count115
+\headlineindent=\dimen123
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks18
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count116
+))
+\Gin@req@height=\dimen124
+\Gin@req@width=\dimen125
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf.sty"
+Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
+\bigstrutjot=\dimen126
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\textcomp.sty"
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.def"
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 266.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 281.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 282.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 283.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 284.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 285.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 286.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 287.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 288.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 289.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 290.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 291.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 292.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 293.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 294.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 295.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 296.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 297.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 298.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 299.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 300.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 301.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 302.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 303.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 304.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 305.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 306.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 307.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 308.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 309.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 310.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 311.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 312.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 313.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 314.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 315.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 316.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 317.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 318.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 319.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 320.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 321.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 322.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 323.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 324.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 325.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 326.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 327.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 328.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 329.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 330.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 331.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 332.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 333.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 334.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 335.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 336.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 337.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\colortbl\colortbl.sty"
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen127
+\extrarowheight=\dimen128
+\NC@list=\toks20
+\extratabsurround=\skip45
+\backup@length=\skip46
+)
+\everycr=\toks21
+\minrowclearance=\skip47
+)
+\rownum=\count117
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(D:\Documents\Profesional\Paper\paper.aux
+
+LaTeX Warning: Label `my-label' multiply defined.
+
+
+LaTeX Warning: Label `my-label' multiply defined.
+
+
+LaTeX Warning: Label `my-label' multiply defined.
+
+
+LaTeX Warning: Label `my-label' multiply defined.
+
+
+LaTeX Warning: Label `my-label' multiply defined.
+
+
+LaTeX Warning: Label `my-label' multiply defined.
+
+
+LaTeX Warning: Label `my-label' multiply defined.
+
+
+LaTeX Warning: Label `my-label' multiply defined.
+
+
+LaTeX Warning: Label `primary key' multiply defined.
+
+
+LaTeX Warning: Label `sample' multiply defined.
+
+
+LaTeX Warning: Label `sample' multiply defined.
+
+
+LaTeX Warning: Label `sample' multiply defined.
+
+)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 27.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 27.
+
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count118
+\scratchdimen=\dimen129
+\scratchbox=\box54
+\nofMPsegments=\count119
+\nofMParguments=\count120
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count121
+\MPscratchDim=\dimen130
+\MPnumerator=\count122
+\makeMPintoPDFobject=\count123
+\everyMPtoPDFconversion=\toks23
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 64.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 64.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Overfull \hbox (11.68044pt too wide) in paragraph at lines 69--70
+\OT1/cmr/bx/n/9 Keywords:\OT1/cmr/m/n/9 ABS, delta mod-el-ing, delta, core, re-
+la-tional database, database
+ []
+
+[1
+
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+Overfull \hbox (1.51274pt too wide) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 ports SPL method-ol-ogy (2). ABS was de-vel-oped within the pro
+ject HATS (Highly
+ []
+
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `htbp') on input line 89.
+
+[2]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `htbp') on input line 114.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `htbp') on input line 126.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `htbp') on input line 140.
+
+<featureDiagram.png, id=14, 424.58624pt x 204.01219pt>
+File: featureDiagram.png Graphic file (type png)
+
+<use featureDiagram.png>
+Package pdftex.def Info: featureDiagram.png used on input line 158.
+(pdftex.def)             Requested size: 275.97778pt x 132.60634pt.
+ <classDiagram.jpg, id=16, 487.8225pt x 237.13594pt>
+File: classDiagram.jpg Graphic file (type jpg)
+
+<use classDiagram.jpg>
+Package pdftex.def Info: classDiagram.jpg used on input line 167.
+(pdftex.def)             Requested size: 317.08086pt x 154.13652pt.
+ [3] [4 <D:/Documents/Profesional/Paper/featureDiagram.png> <D:/Documents/Profe
+sional/Paper/classDiagram.jpg>]
+Overfull \hbox (2.46043pt too wide) in paragraph at lines 184--185
+\OT1/cmr/m/n/10 ORM(Object Re-la-tional Map-ping) does the map-ping works be-tw
+een ob-ject model
+ []
+
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+[5]
+Overfull \hbox (1.59819pt too wide) in paragraph at lines 198--200
+[]\OT1/cmr/m/n/10 Analyze the mis-match be-tween ABS lan-guage and re-la-tional
+ database schema
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `htbp') on input line 205.
+
+[6]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `htbp') on input line 248.
+
+[7]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `htbp') on input line 282.
+
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 290.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omlcmr.fd"
+File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <9> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 290.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `htbp') on input line 307.
+
+[8] <41.png, id=40, 280.04625pt x 82.80937pt>
+File: 41.png Graphic file (type png)
+ <use 41.png>
+Package pdftex.def Info: 41.png used on input line 337.
+(pdftex.def)             Requested size: 196.03102pt x 57.96616pt.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `htbp') on input line 345.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9 <D:/Documents/Profesional/Paper/41.png>]
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 363.
+ <PAIR.png, id=44, 197.98969pt x 29.35968pt>
+File: PAIR.png Graphic file (type png)
+
+<use PAIR.png>
+Package pdftex.def Info: PAIR.png used on input line 373.
+(pdftex.def)             Requested size: 138.59183pt x 20.55162pt.
+ [10 <D:/Documents/Profesional/Paper/PAIR.png>] [11]
+<sample.jpg, id=52, 445.665pt x 365.11406pt>
+File: sample.jpg Graphic file (type jpg)
+ <use sample.jpg>
+Package pdftex.def Info: sample.jpg used on input line 397.
+(pdftex.def)             Requested size: 267.40106pt x 219.07011pt.
+ [12]
+<db1.jpg, id=56, 417.81094pt x 304.13625pt>
+File: db1.jpg Graphic file (type jpg)
+ <use db1.jpg>
+Package pdftex.def Info: db1.jpg used on input line 408.
+(pdftex.def)             Requested size: 292.46567pt x 212.8939pt.
+
+<sample2.jpg, id=57, 240.9pt x 118.19156pt>
+File: sample2.jpg Graphic file (type jpg)
+ <use sample2.jpg>
+Package pdftex.def Info: sample2.jpg used on input line 420.
+(pdftex.def)             Requested size: 144.5411pt x 70.91548pt.
+
+<db2.jpg, id=58, 417.81094pt x 377.91188pt>
+File: db2.jpg Graphic file (type jpg)
+ <use db2.jpg>
+Package pdftex.def Info: db2.jpg used on input line 429.
+(pdftex.def)             Requested size: 292.46567pt x 264.5365pt.
+ [13 <D:/Documents/Profesional/Paper/sample.jpg>] [14 <D:/Documents/Profesional
+/Paper/db1.jpg> <D:/Documents/Profesional/Paper/sample2.jpg>] [15 <D:/Documents
+/Profesional/Paper/db2.jpg>]
+Overfull \hbox (0.43251pt too wide) in paragraph at lines 445--446
+[]\OT1/cmr/m/n/10 Regular Project with Re-cip-i-ent: this prod-uct will store l
+ist of reg-u-lar projects,
+ []
+
+<db3.jpg, id=69, 380.17032pt x 383.18156pt>
+File: db3.jpg Graphic file (type jpg)
+ <use db3.jpg>
+Package pdftex.def Info: db3.jpg used on input line 454.
+(pdftex.def)             Requested size: 266.1174pt x 268.22525pt.
+
+<db4.jpg, id=70, 394.47375pt x 212.29312pt>
+File: db4.jpg Graphic file (type jpg)
+ <use db4.jpg>
+Package pdftex.def Info: db4.jpg used on input line 463.
+(pdftex.def)             Requested size: 276.12973pt x 148.60417pt.
+
+<db5.jpg, id=71, 429.85594pt x 231.86626pt>
+File: db5.jpg Graphic file (type jpg)
+ <use db5.jpg>
+Package pdftex.def Info: db5.jpg used on input line 472.
+(pdftex.def)             Requested size: 300.89711pt x 162.30525pt.
+
+<db6.jpg, id=72, 409.53pt x 221.32687pt>
+File: db6.jpg Graphic file (type jpg)
+ <use db6.jpg>
+Package pdftex.def Info: db6.jpg used on input line 481.
+(pdftex.def)             Requested size: 286.66904pt x 154.92773pt.
+
+<db7.jpg, id=73, 394.47375pt x 295.1025pt>
+File: db7.jpg Graphic file (type jpg)
+ <use db7.jpg>
+Package pdftex.def Info: db7.jpg used on input line 490.
+(pdftex.def)             Requested size: 276.12973pt x 206.57033pt.
+ [16] [17 <D:/Documents/Profesional/Paper/db3.jpg> <D:/Documents/Profesional/Pa
+per/db4.jpg>] [18 <D:/Documents/Profesional/Paper/db5.jpg> <D:/Documents/Profes
+ional/Paper/db6.jpg>]
+<db8.jpg, id=83, 481.04718pt x 297.36093pt>
+File: db8.jpg Graphic file (type jpg)
+ <use db8.jpg>
+Package pdftex.def Info: db8.jpg used on input line 499.
+(pdftex.def)             Requested size: 336.73073pt x 208.15123pt.
+
+<db9.jpg, id=84, 469.00218pt x 295.85532pt>
+File: db9.jpg Graphic file (type jpg)
+ <use db9.jpg>
+Package pdftex.def Info: db9.jpg used on input line 508.
+(pdftex.def)             Requested size: 328.29929pt x 207.0973pt.
+ [19 <D:/Documents/Profesional/Paper/db7.jpg>] [20 <D:/Documents/Profesional/Pa
+per/db8.jpg> <D:/Documents/Profesional/Paper/db9.jpg>] <code1.png, id=92, 458.4
+6281pt x 373.395pt>
+File: code1.png Graphic file (type png)
+
+<use code1.png>
+Package pdftex.def Info: code1.png used on input line 521.
+(pdftex.def)             Requested size: 320.92177pt x 261.37471pt.
+ <code2.png, id=93, 402.75468pt x 374.14781pt>
+File: code2.png Graphic file (type png)
+ <use code2.png>
+Package pdftex.def Info: code2.png used on input line 531.
+(pdftex.def)             Requested size: 281.92635pt x 261.90167pt.
+
+Overfull \hbox (12.68274pt too wide) in paragraph at lines 537--538
+\OT1/cmr/m/n/10 String data type, and adds a new date field with para-met-ric d
+ata type List\OML/cmm/m/it/10 <\OT1/cmr/m/n/10 String\OML/cmm/m/it/10 >\OT1/cmr
+/m/n/10 .
+ []
+
+[21 <D:/Documents/Profesional/Paper/code1.png>] [22 <D:/Documents/Profesional/P
+aper/code2.png>] <code3.png, id=100, 322.95656pt x 150.5625pt>
+File: code3.png Graphic file (type png)
+ <use code3.png>
+Package pdftex.def Info: code3.png used on input line 541.
+(pdftex.def)             Requested size: 226.06804pt x 105.39302pt.
+
+<code4.png, id=101, 331.99031pt x 163.3603pt>
+File: code4.png Graphic file (type png)
+ <use code4.png>
+Package pdftex.def Info: code4.png used on input line 548.
+(pdftex.def)             Requested size: 232.39162pt x 114.35143pt.
+
+<code5.png, id=102, 372.64218pt x 274.77657pt>
+File: code5.png Graphic file (type png)
+ <use code5.png>
+Package pdftex.def Info: code5.png used on input line 555.
+(pdftex.def)             Requested size: 260.84775pt x 192.34227pt.
+
+<code6.png, id=103, 343.2825pt x 148.30406pt>
+File: code6.png Graphic file (type png)
+ <use code6.png>
+Package pdftex.def Info: code6.png used on input line 565.
+(pdftex.def)             Requested size: 240.2961pt x 103.81212pt.
+
+<code7.png, id=104, 325.96782pt x 58.71938pt>
+File: code7.png Graphic file (type png)
+ <use code7.png>
+Package pdftex.def Info: code7.png used on input line 575.
+(pdftex.def)             Requested size: 228.1759pt x 41.10326pt.
+ [23 <D:/Documents/Profesional/Paper/code3.png> <D:/Documents/Profesional/Paper
+/code4.png>]
+[24 <D:/Documents/Profesional/Paper/code5.png> <D:/Documents/Profesional/Paper/
+code6.png>] <code8.png, id=111, 320.69812pt x 194.22563pt>
+File: code8.png Graphic file (type png)
+ <use code8.png>
+Package pdftex.def Info: code8.png used on input line 585.
+(pdftex.def)             Requested size: 224.48714pt x 135.957pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 592--593
+
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 594.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 594.
+
+Underfull \hbox (badness 10000) in paragraph at lines 594--595
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 596--597
+
+ []
+
+<create1.png, id=112, 415.5525pt x 433.62pt>
+File: create1.png Graphic file (type png)
+ <use create1.png>
+Package pdftex.def Info: create1.png used on input line 600.
+(pdftex.def)             Requested size: 290.88477pt x 303.53192pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 605--606
+
+ []
+
+[25 <D:/Documents/Profesional/Paper/code7.png> <D:/Documents/Profesional/Paper/
+code8.png>] [26 <D:/Documents/Profesional/Paper/create1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 607--608
+
+ []
+
+<create2.png, id=121, 415.5525pt x 474.27188pt>
+File: create2.png Graphic file (type png)
+ <use create2.png>
+Package pdftex.def Info: create2.png used on input line 611.
+(pdftex.def)             Requested size: 290.88477pt x 331.98805pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 616--617
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 618--619
+
+ []
+
+<create3.png, id=122, 438.13687pt x 440.39531pt>
+File: create3.png Graphic file (type png)
+ <use create3.png>
+Package pdftex.def Info: create3.png used on input line 622.
+(pdftex.def)             Requested size: 306.69371pt x 308.27461pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 627--628
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 629--630
+
+ []
+
+<create4.png, id=123, 295.1025pt x 438.13687pt>
+File: create4.png Graphic file (type png)
+ <use create4.png>
+Package pdftex.def Info: create4.png used on input line 633.
+(pdftex.def)             Requested size: 265.58978pt x 394.31953pt.
+ [27 <D:/Documents/Profesional/Paper/create2.png>] [28 <D:/Documents/Profesiona
+l/Paper/create3.png>]
+Overfull \hbox (4.33942pt too wide) in paragraph at lines 638--639
+[]\OT1/cmr/m/it/10 generateJava -dbschema -product=RegularRecipient F:\OMS/cmsy
+/m/n/10 n\OT1/cmr/m/it/10 DonationReport\OMS/cmsy/m/n/10 n\OT1/cmr/m/it/10 *.ab
+s 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 638--639
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 640--641
+
+ []
+
+<create5.png, id=130, 306.39468pt x 474.27188pt>
+File: create5.png Graphic file (type png)
+ <use create5.png>
+Package pdftex.def Info: create5.png used on input line 644.
+(pdftex.def)             Requested size: 275.75267pt x 426.84074pt.
+
+Overfull \hbox (28.22263pt too wide) in paragraph at lines 649--650
+[]\OT1/cmr/m/it/10 generateJava -dbschema -product=ConstructionRecipient F:\OMS
+/cmsy/m/n/10 n\OT1/cmr/m/it/10 DonationReport\OMS/cmsy/m/n/10 n\OT1/cmr/m/it/10
+ *.abs 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 649--650
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 651--652
+
+ []
+
+<create6.png, id=131, 302.63063pt x 446.41782pt>
+File: create6.png Graphic file (type png)
+ <use create6.png>
+Package pdftex.def Info: create6.png used on input line 655.
+(pdftex.def)             Requested size: 272.36504pt x 401.77231pt.
+
+<Eval1.jpg, id=132, 413.29407pt x 293.59688pt>
+File: Eval1.jpg Graphic file (type jpg)
+ <use Eval1.jpg>
+Package pdftex.def Info: Eval1.jpg used on input line 668.
+(pdftex.def)             Requested size: 247.97835pt x 176.15947pt.
+
+<Eval2.jpg, id=133, 417.05812pt x 309.40594pt>
+File: Eval2.jpg Graphic file (type jpg)
+ <use Eval2.jpg>
+Package pdftex.def Info: Eval2.jpg used on input line 677.
+(pdftex.def)             Requested size: 250.2368pt x 185.64499pt.
+
+<Eval3.jpg, id=134, 490.08093pt x 293.59688pt>
+File: Eval3.jpg Graphic file (type jpg)
+ <use Eval3.jpg>
+Package pdftex.def Info: Eval3.jpg used on input line 686.
+(pdftex.def)             Requested size: 294.05083pt x 176.15947pt.
+
+<Eval4.jpg, id=135, 458.46281pt x 375.65344pt>
+File: Eval4.jpg Graphic file (type jpg)
+ <use Eval4.jpg>
+Package pdftex.def Info: Eval4.jpg used on input line 695.
+(pdftex.def)             Requested size: 275.0798pt x 225.3938pt.
+
+<Eval5.jpg, id=136, 466.74374pt x 383.18156pt>
+File: Eval5.jpg Graphic file (type jpg)
+ <use Eval5.jpg>
+Package pdftex.def Info: Eval5.jpg used on input line 704.
+(pdftex.def)             Requested size: 280.0484pt x 229.9107pt.
+
+<Eval6.jpg, id=137, 566.86781pt x 375.65344pt>
+File: Eval6.jpg Graphic file (type jpg)
+ <use Eval6.jpg>
+Package pdftex.def Info: Eval6.jpg used on input line 713.
+(pdftex.def)             Requested size: 340.1233pt x 225.3938pt.
+ [29] [30 <D:/Documents/Profesional/Paper/create4.png>] [31 <D:/Documents/Profe
+sional/Paper/create5.png>] [32 <D:/Documents/Profesional/Paper/create6.png>] [3
+3 <D:/Documents/Profesional/Paper/Eval1.jpg> <D:/Documents/Profesional/Paper/Ev
+al2.jpg>]
+[34 <D:/Documents/Profesional/Paper/Eval3.jpg> <D:/Documents/Profesional/Paper/
+Eval4.jpg>] [35 <D:/Documents/Profesional/Paper/Eval5.jpg> <D:/Documents/Profes
+ional/Paper/Eval6.jpg>]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+ [36]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ˜ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ˜ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+ [37] [38]
+(D:\Documents\Profesional\Paper\paper.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 3541 strings out of 493921
+ 47104 string characters out of 3147282
+ 113007 words of memory out of 3000000
+ 6736 multiletter control sequences out of 15000+200000
+ 11115 words of font info for 43 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 42i,18n,35p,1457b,347s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Toshi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
+tcrm1000.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt9
+.pfb>
+Output written on paper.pdf (38 pages, 1279379 bytes).
+PDF statistics:
+ 209 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 176 words of extra memory for PDF output out of 10000 (max. 10000000)
+
