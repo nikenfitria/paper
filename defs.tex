@@ -1,0 +1,96 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%  Used packages
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{amsmath}
+\usepackage{amssymb}
+% \usepackage{amsthm}
+\usepackage{mathtools}                      % \mathrlap
+\usepackage{stmaryrd}                       % double square brackets
+\usepackage{cancel}                         % \notModels
+\usepackage{xspace}                         % macros followed by a space
+\usepackage[inline,nomargin]{fixme}         % Notes on things yet to do.
+\usepackage{float}                          % More placement control on floats
+\usepackage{fancyhdr}                       % Custom page headers
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{microtype}
+\usepackage{algorithmic}
+\usepackage[normalem]{ulem}                 % underline text using \uline
+\usepackage{ragged2e}
+
+\usepackage{pgf,tikz}
+\usetikzlibrary{shapes,patterns,calc,through,arrows,positioning,matrix,trees,fit,petri,fadings,shadows,decorations.pathreplacing}
+%\usetikzlibrary{shapes,patterns,calc,through,arrows,positioning,matrix,trees,fit,petri,fadings,shadows}
+\pgfdeclarelayer{background}
+\pgfsetlayers{background,main}
+
+\usepackage{array,booktabs}
+\usepackage{listings}
+\usepackage[utf8]{inputenc}
+
+%% Better TT fonts!
+\usepackage[scaled=.83]{beramono}           % nicer tt font
+\usepackage[T1]{fontenc}                    % otherwise beramono does not work
+
+% \usepackage{csquotes}
+% \addbibresource[label=bibliography]{radu.bib}
+
+\usepackage{pdfsync}                        % for PDF viewer synchronisation
+\usepackage{hyperref}
+\usepackage{float}                          % \begin{figure}[H] ...
+\usepackage{cite}
+\usepackage{epstopdf}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%  Common HATS definitions
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\definecolor{darkblue}{rgb}{0,0,0.6}
+\definecolor{darkgreen}{rgb}{0,0.6,0}
+\definecolor{darkred}{rgb}{0.7,0,0}
+\definecolor{orange}{rgb}{1,0.5,0}
+\newcommand{\Black}[1]{\color{black}#1\color{black}}
+\newcommand{\White}[1]{\color{white}#1\color{black}}
+\newcommand{\Red}[1]{\color{red}#1\color{black}}
+\newcommand{\Purple}[1]{\color{purple}#1\color{black}}
+\newcommand{\Green}[1]{\color{darkgreen}#1\color{black}}
+\newcommand{\Gray}[1]{\color{gray}#1\color{black}}
+\newcommand{\Blue}[1]{\color{blue}#1\color{black}}
+
+
+% handy notes to mark work-in-progress, TODOs etc.
+\newcommand{\mynote}[1]{
+  \ensuremath{\left\langle\right.\!\!\left\langle\right.\!}\bf #1%
+  \ensuremath{\!\left.\right\rangle\!\!\left.\right\rangle}}
+% \newcommand{\DC}[1]{\textcolor{blue}{\mynote{DC: #1}}}
+\newcommand{\MR}[1]{\textcolor{darkred}{\mynote{Maya: #1}}} % Maya
+\newcommand{\RM}[1]{\textcolor{darkgreen}{\mynote{Radu: #1}}} % Radu
+%\renewcommand{\mynote}[1]{}
+
+\newcommand{\wrap}[1]{\begin{tabular}{@{}c@{}}#1\end{tabular}}
+\newcommand{\wrapl}[1]{\begin{tabular}{@{}l@{}}#1\end{tabular}}
+
+% highlight code
+% usage example: $\cbox{getProduct}$
+\newcommand{\cbox}[2][2.6pt]{\raisebox{-#1}{\tikz{\node[inner sep=1.2pt,fill=yellow!70] {#2};}}}
+
+\definecolor{hlcolor}{rgb}{1,0.5,0.5}
+\newcommand{\hlbox}[1]{\colorbox{hlcolor}{#1}}
+\newcommand{\cfbox}[2]{%
+    \colorlet{currentcolor}{.}%
+    {\color{#1}%
+    \fbox{\color{currentcolor}#2}}%
+}
+
+% faded scope (use inside a tikzpicture)
+\definecolor{faded}{rgb}{.5,.5,.5}
+\newenvironment{faded}[1][faded]
+    {   \pgfonlayer{background}
+        \begin{scope}[#1]
+        \def \Ucolor {#1}
+        \def \ACcolor {#1}
+        \tikzset{token/.append style={#1}}}
+    {   \end{scope}
+        \endpgfonlayer}
+
