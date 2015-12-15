@@ -36,7 +36,7 @@
 \title{Delta-Relational Mapping\\Using The Abstract Behavioral Specification Language}
 
 % a short form should be given in case it is too long for the running head
-\titlerunning{Delta-Relational Mapping Using The ABS Language}
+%\titlerunning{Delta-Relational Mapping Using The ABS Language}
 
 % the name(s) of the author(s) follow(s) next
 %
@@ -78,10 +78,23 @@ Feature variability of an application in SPL (Software Product Line) can affect 
 
 The development of software engineering cannot be separated from the influence of market and industry demand. The development of market and industry nowadays demand for software which has variability be suited with the choice and the need of the users. This could cause repeated requirement changes for the same kind of software or system.
 
-The problem above actually has been addressed by a methodological approach called SPL (Software Product Line). Software product line (SPL), is a methodology for developing diversed software products and software-intensive systems. According to (1), SPL can be used to develop software products with diversity at lower cost, in shorter time, and with high quality, compared to single product development methodology.
-ABS (Abstract Behavioral Specification) is a modeling language which supports SPL methodology (2). In SPL software variability is commonly expressed using features, and in ABS these features are organized in feature model to express the dependencies between features (3). Moreover, ABS also applies delta modeling to handle requirement changes in the process of feature adjustment, which is by implementing changes without changing the default system.
-Many software application relies on database to manage data, therefore database is an important element of software system. Furthermore database is also influenced by requirement changes resulted by SPL implementation. In SPL, the variability of software, information system for example, will cause variability in database schema and database implementation. Until now, there is no technique in SPL methodology to manage variability in database schema and database implementation, especially in information system (5). This paper is concerned in applying delta modeling in ABS to not only influence and adjust the  SPL implementation, but also the changes of database schema.
-\subsection{Introduction of Case Study}
+The problem above actually has been addressed by a methodological approach called SPL (Software Product Line). Software product line (SPL), is a methodology for developing diversed software products and software-intensive systems. According to \cite{book1}, SPL can be used to develop software products with diversity at lower cost, in shorter time, and with high quality, compared to single product development methodology.
+
+ABS (Abstract Behavioral Specification) is a modeling language which supports SPL methodology \cite{lncschap}. In SPL software variability is commonly expressed using features, and in ABS these features are organized in feature model to express the dependencies between features \cite{url}. Moreover, ABS also applies delta modeling to handle requirement changes in the process of feature adjustment, which is by implementing changes without changing the default system.
+
+Many software application relies on database to manage data, therefore database is an important element of software system. Furthermore database is also influenced by requirement changes resulted by SPL implementation. In SPL, the variability of software, information system for example, will cause variability in database schema and database implementation. Until now, there is no technique in SPL methodology to manage variability in database schema and database implementation, especially in information system \cite{article}. This paper is concerned in applying delta modeling in ABS to not only influence and adjust the  SPL implementation, but also the changes of database schema.
+
+The main contributions of this paper are the mapping technique of delta modeling in ABS into relational database schema, the implementation of the mapping technique in the existing ABS Tool, and a case study to evaluate the effectiveness of mapping technique. 
+
+The follows are the organizations of this paper. 
+The first section the introduction of the paper. 
+Section two describes the requirement analysis of the case study. 
+Section three discusses about the mapping technique from delta oriented programming into relational database introduced by this paper. 
+The fourth section describes the implementation of the case study and implementation of mapping technique on the case study. 
+The last section provides the conclusion and the future work of this research.
+
+
+\section{Introduction of Case Study}
 
 The case study used in this research is a simplification of the donation report based on the real-life activities done by charity organizations. Hence, the requirement analysis is done based on the charity organizations’ programs and activities. The donation report system will be focused on the income that is the source of the donation and the expenditure, which consists of projects and recipient.
 
@@ -173,7 +186,7 @@ Furthermore, a class diagram of the donation report system is also made to see t
 The introduction part of this paper describes the background problem, motivation, and requirement analysis of the case study. The next section of this paper discusses the mapping technique from delta oriented programming into relational database introduced by this research. This section discusses about relational database schema elements, core ABS and delta modules, and introduces mismatch between ABS language and relational database schema. The following section describes the implementation of the case study and implementation of mapping technique on the case study. This section discusses the expected results, case study implementation in ABS, implementation of mapping technique on the case study, and evaluation. The last section provides the conclusion and the future work of this research.
 
 \section{Mapping Technique}
-This section describes the proposal of mapping technique used in the mapping process from ABS code into relational database schema. The mapping technique is defined based on relational database schema and the basic syntax of ABS modules. This section will be divided into several parts as follows:
+This section describes the proposed mapping technique used in the mapping process from ABS code into relational database schema. The mapping technique is defined based on relational database schema and the basic syntax of ABS modules. This section is divided into several parts as follows:
 \begin{enumerate}
 	\item The steps used in defining the mapping technique
 	\item The elements of relational database schema as the target of the mapping
@@ -189,19 +202,19 @@ ORM(Object Relational Mapping) does the mapping works between object model in ob
 	\item Database-oriented, which does the mapping from the database.
 \end{enumerate}
 
-The mapping technique proposed in this research uses the last perscpective used by ORM, which is database-oriented approach. Hence the approach to do the mapping is started from the target of the mapping, which is the relational database schema. The following are the steps used in defining the mapping technique:
+The mapping technique proposed in this research uses the last perspective used by ORM, which is database-oriented approach. Hence the approach to do the mapping is started from the target of the mapping, which is the relational database schema. The following are the steps used in defining the mapping technique:
 
 \begin{enumerate}
 	\item Analyze the aspect of relational database schema\\
 	In this step we obtain the elements of relational database schema and what is needed to create a relational database schema. Based on those elements, we define the information which needs to be provided by the ABS model so it can be generated into database schema.
-	\item Analyze the component of ABS modules\\
+	\item Analyze the components of ABS\\
 	In this step we analyze the component of ABS modules and their syntax. Then we define the components which provide the information needed to create a relational database schema. After that, those components are mapped into the corresponding relational database schema’s elements.
 	\item Analyze the mismatch between ABS language and relational database schema and define the solutions\\
 	This step is done by revisiting step 1 and step 2. In this step we find the elements of relational database schema which are not provided by the ABS language. Furthermore, we also find the components of ABS modules which are not available in relational database concept. So we define the solution to the mismatch, by considering the constraints of each concept.
 \end{enumerate}
 
 \subsection{Relational Database Schema Elements}
-The main elements of relational database schema are tables and constraints. Below are the components of a relational database schema.
+The main elements of relational database schemes are tables and constraints \cite{book2}. Below are the components of a relational database schema.
 
 \begin{table}[]
 	\centering
@@ -238,7 +251,7 @@ In a database schema there will be at least one table. In each table, there will
 \end{itemize}
 
 \subsection{Core ABS and Delta Modules}
-Based on the analysis on previous section, the information needed to generate a database schema is provided by the core modules of ABS. However ABS implements delta-oriented programming. Hence, we should also consider the modification done by the delta modules which will affect the ABS core. 	
+In this section, we analyze the core modules of ABS to obtain the information needed to generate a database schema. However ABS implements delta-oriented programming. Hence, we should also consider the modification done by the delta modules which will affect the ABS core. 	
 
 \subsubsection*{Core ABS Mapping}
 
@@ -278,7 +291,7 @@ Core ABS contains at least one module. In each module, there could be any import
 	\end{tabular}
 \end{table}
 
-In Table 6, the components that are related with the information needed to generate a database schema are marked with (*). Note that any imported and exported items will not affect the database schema. Furthermore, any methods in the interface and class, and also functional declaration will not affect the database schema. However, the interface and data type declaration are related with the database schema, because the implemented interface affect the type of the object and data type declared could be the data type of a class parameter or a field. These issues will be discussed in the next section. Table 7 contains the mapping of each component of a module with relational database schema components.
+In Table 6, the components that are related with the information needed to generate a database schema are marked with (*). Note that any imported and exported items will not affect the database schema. Furthermore, any methods in the interface and class, and also functional declaration will not affect the database schema. However, the interface and data type declaration are related with the database schema, because the implemented interface affect the type of the object and data type declared could be the data type of a class parameter or a field. These issues will be discussed in the next section. Table 7 contains the mapping of each component of an ABS module to a relational database schema components, based on the database-oriented perspective used in ORM. 
 
 \begin{table}[]
 	\centering
@@ -384,16 +397,10 @@ As for the Triple data type, there will be three attributes. The first attribute
 \subsubsection{Parametric Data Type in ABS}
 In ABS, parametric data types usually used to define general-purpose data types, such as lists, sets, and maps. Those three are already defined in the ABS Standard Library. However, these parametric data types are breaking the domain constraints of the relational database schema, because parametric data types will produce multivalued attribute. As the solution, multivalued attributes must be represented by separate relations. Hence, every class parameter or field in ABS with list, set, or map type, will be generated as a new table in database schema.
 
-For a field or class parameter with list type, the name of the new table will be List[className]. Then the name of the field will be the attribute name in the new table. The attribute type of this new attribute is the type parameter defined inside angle brackets (\textless \textgreater). Besides that this new table will have the primary key attributes of the class as the additional attributes. The name of the additional attribute will be [attributeName]\_[className]. The primary key of this new table is the whole attributes of it. This new table will have at least one foreign key, which is every additional attribute will refer to the corresponding attribute of the class. 
-
-For a field or class parameter with set type, the name of the new table will be Set[className]. Then the name of the field will be the attribute name in the new table. The attribute type of this new attribute is the type parameter defined inside angle brackets (\textless \textgreater). Besides that this new table will have the primary key attributes of the class as the additional attributes. The name of the additional attribute will be [attributeName]\_[className]. The primary key of this new table is the whole attributes of it. This new table will have at least one foreign key, which is every additional attribute will refer to the corresponding attribute of the class.
-
-For a field or class parameter with map type, the name of the new table will be Map[className]. Because one element in a map contains two things, those are key and value, this new table will have two attributes. The first attribute will contain the key, and the attribute name will be [fieldName]0. The attribute type of the first attribute will be the first type parameter defined inside angle brackets (\textless \textgreater). The second attribute will contain the value, and the attribute name will be [fieldName]1. The attribute type of the second attribute will be the second type parameter defined inside angle brackets (\textless \textgreater). Besides that this new table will have the primary key attributes of the class as the additional attributes. The name of the additional attribute will be [attributeName]\_[className]. The primary key of this new table is the whole attributes of it. This new table will have at least one foreign key, which is every additional attribute will refer to the corresponding attribute of the class.
-
 \subsubsection{Object type in ABS}
 Only interfaces can be used as types in ABS. Hence the type of the object is based on the interfaces implemented by the class. Since class can implement an arbitrary number of interfaces and an interface can extend arbitrary number of other interfaces, there will be many possible types for the object of a class. Moreover we could not define the object type in the class declaration, because this information will only be available at runtime.
 
-To provide the information of the object type, we will create an additional table for each interface implemented in core ABS. The additional table for an interface will have several attributes. The first attribute is the generated id. The rest of the attributes are all primary key attributes of all classes which implement the interface. Note that the implemented interfaces are not only the interfaces declared in class declarations, but also include the interfaces extended by those interfaces. In other words, the information of interface hierarchy is needed to define all the classes which implement a certain interface. The primary key attributes of each class in the additional table will refer to the primary key attributes of the table of the class as the primary key. And the primary key of the additional table will be the attribute which contains the generated id. Later, when a new object is created, a unique id is generated. Then the unique id along with the primary key value of the object will be stored in the interface type table.
+To provide the information of the object type, we will create an additional table for each interface implemented in core ABS. The additional table for an interface will have several attributes. The first attribute is the generated id. The rest of the attributes are all primary key attributes of all classes which implement the interface. Note that the implemented interfaces are not only the interfaces declared in class declarations, but also include the interfaces extended by those interfaces. In other words, the information of interface hierarchy is needed to define all the classes which implement a certain interface. The primary key attributes of each class in the additional table will refer to the primary key attributes of the table of the class as the primary key. And the primary key of the additional table will be the attribute which contains the generated id. Later, when a new object is created, a unique id is generated. Then the unique id along with the primary key value of the object will be stored in the interface type table. Figure 3 is the example to describe the explanation above.And the database schema diagram of Figure 3 will be as shown in Figure 4.
 
 \begin{figure}
 	\centering
@@ -401,10 +408,6 @@ To provide the information of the object type, we will create an additional tabl
 	\caption{The Example of Retrieving Object Type}
 	\label{sample}
 \end{figure}
-
-Figure 3 is the example to describe the explanation above. There are three interfaces; those are Customer, Corporate, and Government. The Corporate interface extends Customer interface. Then there are four classes; those are Individual, Family, Company, and Ministry. The Individual class implements Customer interface. The Individual class has id and name as the attributes, with id as the primary key. The Family class implements Customer interface. The Family class has id, name, and member as the attributes, with id and name as the primary key. The Company class implements Corporate interface. The Company class has taxId, name, and branch as the attributes, with taxId as the primary key. The Ministry class implements Corporate interface and Government interface. The Ministry class has regNum and name as the attributes, with regNum as the primary key. This situation is represented by Figure 3. 
-
-Based on the interface hierarchy, the possible object type for Individual class and Family class is Customer. The possible object types for Company class are Customer and Corporate, whereas the possible object types for Ministry class are Customer, Corporate, and Government. Hence, the database schema diagram will be as shown in Figure 4.
 
 \begin{figure}
 	\centering
@@ -416,7 +419,7 @@ Based on the interface hierarchy, the possible object type for Individual class 
 \subsubsection{Referential Integrity in Relational Database}
 There is another condition in ABS where the referential integrity constraint in relational database could be violated; that is when a class declaration has other objects as the class parameter or field. ABS, which is object-oriented, enables an object to have another object as its field. When a field is generated as the attribute in relational database, it is impossible to store the whole information of an object in an attribute. Hence, the solution is every time there is a class parameter or field declaration has interface type as the data type, the attribute generated will only contain the generated id of the object which is stored in the interface type table. This attribute will be the foreign key which refers to the primary key of the inference type table.
 
-To describe the explanation above, we will use the same situation as the example beforehand. We add a new interface called Account. This interface is implemented by AccountImpl class, which has id, owner, and balance as the attributes, and the attribute id is the primary key. Note that one of the attribute use interface type as the data type; that is customer. This additional situation is described by Figure 5 below.
+To describe the explanation above, we will use the same situation as the example beforehand. We add a new interface called Account. This interface is implemented by AccountImpl class. This additional situation is described by Figure 5 below.
 
 \begin{figure}
 	\centering
@@ -520,194 +523,183 @@ This section will present the implementation of the case study in ABS.  The case
 The first module is module project. This module defines the model of project in ABS. There is an abstract data type declaration which declares the type of the project and constructs its possible value. The abstract data type declaration is followed by function definitions to initialize that abstract data type. This abstract data type is to represent the possible fields of project mentioned in Section 1; those are health, education, empowerment, and disaster relief. And then we define an interface called Project, with several abstract methods. This interface is implemented by the class Project. This class represents the relationship between class donor and class project, by having Donor object as one of its class parameters. Below is shows the ABS code of module Project.
 
 \begin{abscode}
-	module Project;
+module Project;
 	
-	export *;
-	import Donor from Donor;
+export *;
+import Donor from Donor;
+
+data ProjectType = Health | Education | Empowerment | DisasterRelief;
 	
-	data ProjectType = Health | Education | Empowerment | DisasterRelief;
+def ProjectType createHealthProject() = Health;
+def ProjectType createEducationProject() = Education;
+def ProjectType createEmpowermentProject() = Empowerment;
+def ProjectType createDisasterReliefProject() = DisasterRelief; 
+
+interface Project {
+	Int getId();
+	Int getAmount();
+	Project getProject(Int id);
+	Unit editProject(String n, Int a, String d);
+}
 	
-	def ProjectType createHealthProject() = Health;
-	def ProjectType createEducationProject() = Education;
-	def ProjectType createEmpowermentProject() = Empowerment;
-	def ProjectType createDisasterReliefProject() = DisasterRelief; 
-	
-	interface Project {
-		Int getId();
-		Int getAmount();
-		Project getProject(Int id);
-		Unit editProject(String n, Int a, String d);
-	}
-	
-	class Project([PK]Int id, String name, Int amount, ProjectType proType, Donor donor) 
-	implements Project {
-		
-		String date = "";
-		
-		Int getId() { return id; }
-		Int getAmount() { return amount; }
-		Project getProject(Int id){ return this; }
-		Unit editProject(String n, Int a, String d) {
-			name = n;
-			amount = a;
-			date = d;
-		}	
-	}
+class Project([PK]Int id, String name, Int amount, ProjectType proType, Donor donor) 
+implements Project {
+	String date = "";
+	Int getId() { return id; }
+	Int getAmount() { return amount; }
+	Project getProject(Int id){ return this; }
+	Unit editProject(String n, Int a, String d) {
+		name = n;
+		amount = a;
+		date = d;
+	}	
+}
 \end{abscode}
 
 \subsubsection{Module Donor}
 This module defines the model of donor in ABS. In this module we declare an interface called Donor, with several abstract methods to represent the behavior of Donor model. This interface is implemented by two classes. The first class is the Individual Donor, and the second class is Institutional Donor. Below is the ABS code of module Donor.
 
 \begin{abscode}
-	module Donor;
-	export Donor;
-	interface Donor {
-		Int getId();
-		String getName();
-		Int getTotal();				// to get the total amount of the donation
-		List<Int> getAmounts();		// to get the list of the donation
-		Unit donate(Int amt);		// to add the donation
+module Donor;
+export Donor;
+interface Donor {
+	Int getId();
+	String getName();
+	Int getTotal();				// to get the total amount of the donation
+	List<Int> getAmounts();		// to get the list of the donation
+	Unit donate(Int amt);		// to add the donation
+}
+class IndividualDonor([PK]Int id, String name) implements Donor { 
+	Int total = 0;
+	List<Int> amounts = Nil;
+	Int getId() { return id; }
+	String getName() { return name; }
+	Int getTotal() { return total;}
+	List<Int> getAmounts() { return amounts; }
+	Unit donate(Int amt) {	
+		total = total + amt;
+		amounts = Cons(amt, amounts);
 	}
-	class IndividualDonor([PK]Int id, String name) implements Donor { 
-		Int total = 0;
-		List<Int> amounts = Nil;
-		Int getId() { return id; }
-		String getName() { return name; }
-		Int getTotal() { return total;}
-		List<Int> getAmounts() { return amounts; }
-		Unit donate(Int amt) {	
-			total = total + amt;
-			amounts = Cons(amt, amounts);
-		}
+}
+class InstitutionalDonor([PK]Int taxId, String name) implements Donor { 
+	Int total = 0;
+	List<Int> amounts = Nil;
+	Int getId() { return taxId; }
+	String getName() { return name; }
+	Int getTotal() { return total;}
+	List<Int> getAmounts() { return amounts; }
+	Unit donate(Int amt) {	
+		total = total + amt;
+		amounts = Cons(amt, amounts);
 	}
-	class InstitutionalDonor([PK]Int taxId, String name) implements Donor { 
-		Int total = 0;
-		List<Int> amounts = Nil;
-		Int getId() { return taxId; }
-		String getName() { return name; }
-		Int getTotal() { return total;}
-		List<Int> getAmounts() { return amounts; }
-		Unit donate(Int amt) {	
-			total = total + amt;
-			amounts = Cons(amt, amounts);
-		}
-	}
+}
 \end{abscode}
 
 \subsubsection{Delta Modules}
 The delta modules consist of DRegular, DConstuction, and DRecipient. Delta DRegular modifies class Project, removes the field date with String data type, and adds a new date field with parametric data type List\textless String\textgreater. Delta DConstruction modifies class Project, removes the field date with String data type, and add new field called payment which has Pair\textless Int,String\textgreater as the data type. Delta DRecipient adds new abstract data type in module Project, and defines the functions to initialize it. This abstract data type is to represent the type of the recipient, which are individual, institutional, and regional. This delta also adds new interface called Recipient and new class Recipient which implements Recipient interface. To represent the relationship between class Project and class Recipient, delta DRecipient modifies class Project by adding Recipient as new field. Below are the ABS codes of delta modules.
 
 \begin{abscode}
-	delta DRegular;
-	uses Project;
-	
-	modifies class Project {
-		removes String date;
-		adds List<String> date = Nil;
-		
-		modifies Unit editProject(String n, Int a, String d) {
-			name = n;
-			amount = a;
-			date = Cons(d,date);
-		}
+delta DRegular;
+uses Project;
+
+modifies class Project {
+	removes String date;
+	adds List<String> date = Nil;
+	modifies Unit editProject(String n, Int a, String d) {
+		name = n;
+		amount = a;
+		date = Cons(d,date);
 	}
+}
 \end{abscode}
 
 \begin{abscode}
-	delta DConstruction;
-	uses Project;
-	
-	modifies class Project {
-		
-		removes String date;
-		adds Pair<Int, String> payment = Pair(0,"");
-		
-		modifies Unit editProject(String n, Int a, String d) {
-			name = n;
-			Pair<Int,String> pay = Pair(a, d);
-		}
-		
-	}	
+delta DConstruction;
+uses Project;
+
+modifies class Project {
+	removes String date;
+	adds Pair<Int, String> payment = Pair(0,"");
+	modifies Unit editProject(String n, Int a, String d) {
+		name = n;
+		Pair<Int,String> pay = Pair(a, d);
+	}
+}	
 \end{abscode}
 
 \begin{abscode}
-	delta DRecipient;
-	uses Project;
-	
-	adds data RecipientType = Individual | Institutional | Regional;
-	
-	adds def RecipientType createIndvRec() = Individual;
-	adds def RecipientType createInstRec() = Institutional;
-	adds def RecipientType createRegRec() = Regional;
-	
-	adds interface Recipient {
-		Int getId();
-		String getName();
-	}
-	
-	adds class Recipient([PK]Int id, String name, RecipientType recType) 
-	implements Recipient {
-		
-		Int getId() { return id; }
-		String getName() { return name; }
-	}
-	
-	modifies class Project {
-		adds Recipient recipient;
-	}
+delta DRecipient;
+uses Project;
+
+adds data RecipientType = Individual | Institutional | Regional;
+adds def RecipientType createIndvRec() = Individual;
+adds def RecipientType createInstRec() = Institutional;
+adds def RecipientType createRegRec() = Regional;
+adds interface Recipient {
+	Int getId();
+	String getName();
+}
+adds class Recipient([PK]Int id, String name, RecipientType recType) 
+implements Recipient {
+	Int getId() { return id; }
+	String getName() { return name; }
+}
+modifies class Project {
+	adds Recipient recipient;
+}
 \end{abscode}
 
 \subsubsection{Feature Model}
 The code below is the feature model in \textmu TVL which represents the feature diagram shown in Figure 1.
 
 \begin{abscode}
-	root DonationReport {
-		group allof {
-			opt Recipient /*end of Recipient*/ ,
-			opt Donor /*end of Donor*/ ,
-			Project {
-				group allof {
-					opt Construction /*end of Construction*/ , 
-					opt Regular /*end of Regular*/ , 
-					opt Once /*end of Once*/ 
-				} // end of Project group
-			} /*end of Project*/  
-		} //end of DonationReport group
+root DonationReport {
+	group allof {
+		opt Recipient,
+		opt Donor,
+		Project {
+			group allof {
+				opt Construction, 
+				opt Regular, 
+				opt Once 
+			}
+		}
 	}
+}
 \end{abscode}
 
 \subsubsection{Product Line Configuration}
 The product line defines features and the corresponding delta to realize the features. Delta DRegular will be implemented when feature Regular is chosen. Delta DConstruction will be implemented when feature Construction is chosen. And delta DRecipient will be implemented if feature Recipient is chosen.
 
 \begin{abscode}
-	productline Project;
-	features Once, Donor, Construction, Regular, Recipient;
-	delta DConstruction when Construction;
-	delta DRegular when Regular;
-	delta DRecipient when Recipient;
+productline Project;
+features Once, Donor, Construction, Regular, Recipient;
+delta DConstruction when Construction;
+delta DRegular when Regular;
+delta DRecipient when Recipient;
 \end{abscode}
 
 \subsubsection{Products Declaration}
 Below is the products declaration, as mentioned in the beginning of this section.
 
 \begin{abscode}
-	// base product
-	product Once (Once);
-	
-	// regular project
-	product Regular (Regular);
-	
-	// construction project
-	product Construction (Construction);
-	
-	// base product with recipient
-	product OnceRecipient (Once, Recipient);
-	
-	// regular project with recipient
-	product RegularRecipient (Regular, Recipient);
-	
-	// construction project with recipient
-	product ConstructionRecipient (Construction, Recipient);
+// base product
+product Once (Once);
+
+// regular project
+product Regular (Regular);
+
+// construction project
+product Construction (Construction);
+
+// base product with recipient
+product OnceRecipient (Once, Recipient);
+
+// regular project with recipient
+product RegularRecipient (Regular, Recipient);
+
+// construction project with recipient
+product ConstructionRecipient (Construction, Recipient);
 \end{abscode}
 
 
@@ -896,5 +888,29 @@ Basically this research is the first step of a bigger research that connects ABS
 	\item The usage of DBMS for database implementation in ABS: if DBMS will be used in database implementation by ABS, then the connection between ABS and DBMS must be formulated. An application program, in this case is ABS, accesses the database by sending queries or request for data in the DBMS. A query typically causes some data to be retrieved. A transaction done in application program may cause some data to be updated and written in the database. This connection will make ABS as a running application program which is able to access the database through the DBMS.
 	\item Maintaining the evolvement of database connected to ABS because of the application requirement changes: requirement changes of application could lead to schema evolution where changes are needed to be applied to the schema. Moreover, this maintenance needs the consideration to preserve the previous data.
 \end{enumerate}
+
+\begin{thebibliography}{4}
+	
+	\bibitem{book1} Pohl, K., Bockle, G., Linden, F.J.V.D.: Software Product Line Engineering: Foundation, Principles and Techniques. Springer, New York (2005)
+	
+	\bibitem{book2} Elmasri, R., Navathe, S.B.: Fundamentals of Database Systems. Addison-Wesley, Boston (2011)
+	
+	\bibitem{lncschap} Reiner, Hahnle.: The Abstract Behavioral Specification Language. In: Giachino, E., Hahnle, R., Boer, F.S.D.B., Bonsangue, M.M. (eds.) Formal methods for Components and Objects. LNCS, vol. 7866, pp. 1-37. Springer, Heidelberg (2013)
+	
+	\bibitem{article} Khedri, N., Khosravi, R.: Handling Database Schema Variability in Software Product Lines. In: 2013 20th Asia-Pacific Software Engineering Conference(ASPEC), pp.
+	3311-338. IEEE Computer Society, California (2013)
+	
+	\bibitem{url} ABS Tools HATS Project, \url{http://tools.hats-project.eu/download/absrefmanual.pdf}
+	
+\end{thebibliography}
+
+\newpage
+\tableofcontents
+
+\newpage
+\begin{appendix}
+	\listoffigures
+	\listoftables
+\end{appendix}
 
 \end{document}

@@ -1,0 +1,29 @@
+\contentsline {title}{Delta-Relational Mapping}{1}{chapter.1}
+\authcount {1}
+\contentsline {author}{Using The ABS Language}{1}{chapter.1}
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1.1}
+\contentsline {section}{\numberline {2}Introduction of Case Study}{2}{section.1.2}
+\contentsline {section}{\numberline {3}Mapping Technique}{5}{section.1.3}
+\contentsline {subsection}{\numberline {3.1}The Methodology of Mapping Technique}{5}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {3.2}Relational Database Schema Elements}{6}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {3.3}Core ABS and Delta Modules}{7}{subsection.1.3.3}
+\contentsline {subsection}{\numberline {3.4}Mismatch between ABS Language and Relational Database Schema}{8}{subsection.1.3.4}
+\contentsline {subsubsection}{Primary Key in Relational Database}{9}{section*.4}
+\contentsline {subsubsection}{Predefined Data Type in ABS}{10}{section*.5}
+\contentsline {subsubsection}{Parametric Data Type in ABS}{11}{section*.6}
+\contentsline {subsubsection}{Object type in ABS}{11}{section*.7}
+\contentsline {subsubsection}{Referential Integrity in Relational Database}{12}{section*.8}
+\contentsline {section}{\numberline {4}Implementation of Mapping Technique towards Case Study}{15}{section.1.4}
+\contentsline {subsection}{\numberline {4.1}The Expected Results}{15}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {4.2}Case Study Implementation in ABS}{18}{subsection.1.4.2}
+\contentsline {subsubsection}{Module Project}{18}{section*.9}
+\contentsline {subsubsection}{Module Donor}{20}{section*.10}
+\contentsline {subsubsection}{Delta Modules}{21}{section*.11}
+\contentsline {subsubsection}{Feature Model}{22}{section*.12}
+\contentsline {subsubsection}{Product Line Configuration}{23}{section*.13}
+\contentsline {subsubsection}{Products Declaration}{23}{section*.14}
+\contentsline {subsection}{\numberline {4.3}Implementation of Mapping Technique in the Case Study}{24}{subsection.1.4.3}
+\contentsline {subsection}{\numberline {4.4}Evaluation}{29}{subsection.1.4.4}
+\contentsline {section}{\numberline {5}Conclusion and Future Work}{34}{section.1.5}
+\contentsline {subsection}{\numberline {5.1}Conclusion}{34}{subsection.1.5.1}
+\contentsline {subsection}{\numberline {5.2}Future Work}{35}{subsection.1.5.2}
